@@ -1,0 +1,24 @@
+GND_IMOBILE_TOSSER
+
+//initial_health
+  100
+//can_aim_at_cc__0_or_1
+  1
+
+//stand_anim
+============
+  4
+    cs_images/oo_tree_01a.bmp  40 50  25 25
+    cs_images/oo_tree_01a.bmp  40 50  25 25
+    cs_images/oo_tree_01a.bmp  40 50  25 25
+    cs_images/oo_tree_01b.bmp  40 50  25 25
+    10 1
+
+//die_anim
+==========
+  4
+    cs_images/oo_tree_01a.bmp  40 50  25 25
+    cs_images/oo_tree_01a.bmp  40 50  25 25
+    cs_images/oo_tree_01a.bmp  40 50  25 25
+    cs_images/oo_tree_01b.bmp  40 50  25 25
+    10 1

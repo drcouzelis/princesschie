@@ -1,0 +1,181 @@
+
+===dirt
+1
+ 1
+  cs_tiles/dirt_01a.bmp
+   0
+ 0
+===
+2
+ 1
+  cs_tiles/dirt_01b.bmp
+   0
+ 0
+===
+3
+ 1
+  cs_tiles/dirt_01c.bmp
+   0
+ 0
+
+===low_grass
+4
+ 1
+  cs_tiles/low_grass_01a.bmp
+   0
+ 1
+===
+5
+ 1
+  cs_tiles/low_grass_01b.bmp
+   0
+ 1
+===
+6
+ 1
+  cs_tiles/low_grass_01c.bmp
+   0
+ 1
+===
+7
+ 1
+  cs_tiles/low_grass_01d.bmp
+   0
+ 1
+
+===tall_grass
+8
+ 1
+  cs_tiles/tall_grass_01a.bmp
+   0
+ 1
+===
+9
+ 1
+  cs_tiles/tall_grass_01b.bmp
+   0
+ 1
+===
+10
+ 1
+  cs_tiles/tall_grass_01c.bmp
+   0
+ 1
+===
+11
+ 1
+  cs_tiles/tall_grass_01d.bmp
+   0
+ 1
+===
+12
+ 1
+  cs_tiles/tall_grass_01e.bmp
+   0
+ 1
+===
+13
+ 1
+  cs_tiles/tall_grass_01f.bmp
+   0
+ 1
+===
+14
+ 1
+  cs_tiles/tall_grass_01g.bmp
+   0
+ 1
+===
+15
+ 1
+  cs_tiles/tall_grass_01h.bmp
+   0
+ 1
+
+===flower_plant
+16
+ 1
+  cs_tiles/flower_plant_01a.bmp
+   0
+ 1
+===
+17
+ 1
+  cs_tiles/flower_plant_01b.bmp
+   0
+ 1
+===
+18
+ 1
+  cs_tiles/flower_plant_01c.bmp
+   0
+ 1
+===
+19
+ 1
+  cs_tiles/flower_plant_01d.bmp
+   0
+ 1
+===
+20
+ 1
+  cs_tiles/flower_plant_01e.bmp
+   0
+ 1
+===
+21
+ 1
+  cs_tiles/flower_plant_01f.bmp
+   0
+ 1
+===
+22
+ 1
+  cs_tiles/flower_plant_01g.bmp
+   0
+ 1
+===
+23
+ 1
+  cs_tiles/flower_plant_01h.bmp
+   0
+ 1
+===
+24
+ 1
+  cs_tiles/flower_plant_01i.bmp
+   0
+ 1
+
+===grass_filler
+25
+ 1
+  cs_tiles/grass_filler_01.bmp
+   0
+ 0
+
+===water_wave
+26
+ 6
+  cs_tiles/wave_01a.bmp
+  cs_tiles/wave_01b.bmp
+  cs_tiles/wave_01c.bmp
+  cs_tiles/wave_01d.bmp
+  cs_tiles/wave_01c.bmp
+  cs_tiles/wave_01b.bmp
+   5
+ 1
+
+===water_filler
+27
+ 1
+  cs_tiles/water_01.bmp
+   0
+ 1
+
+===log_(mid_air_stuff)
+28
+ 1
+  cs_tiles/log_01.bmp
+   0
+ 2

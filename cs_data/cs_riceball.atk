@@ -1,0 +1,25 @@
+450
+-250
+
+75
+-800
+
+450
+-250
+
+10
+
+===moveAnim
+ 4
+  cs_images/cs_riceball_01.bmp  10 10  10 10
+  cs_images/cs_riceball_02.bmp  10 10  10 10
+  cs_images/cs_riceball_03.bmp  10 10  10 10
+  cs_images/cs_riceball_04.bmp  10 10  10 10
+   10  1
+
+===hitAnim
+ 3
+  cs_images/cs_riceball_05.bmp  10 10  10 10
+  cs_images/cs_riceball_06.bmp  10 10  10 10
+  cs_images/cs_riceball_07.bmp  10 10  10 10
+   5  0

@@ -1,0 +1,41 @@
+echo Generating `pwd`/Makefile
+
+rm -f Makefile
+
+echo OBJECTS = $(ls *.c | sed -e 's/\.c/.o/') >> Makefile
+echo HEADERS = `ls *.h` >> Makefile
+
+echo 'CC = gcc' >> Makefile
+echo 'OUTPUT = ' >> Makefile
+echo 'DEBUG = -Wall' >> Makefile
+echo 'LINKING_OPTIONS = ' >> Makefile
+echo 'CFLAGS = $(shell allegro-config --cflags)' >> Makefile
+echo 'LDFLAGS = $(shell allegro-config --libs)' >> Makefile
+
+echo 'WIN_CC = wine c:\\MinGW\\bin\\gcc.exe' >> Makefile
+echo 'WIN_OUTPUT = princess.exe' >> Makefile
+
+echo >> Makefile
+
+
+echo 'princess: $(OBJECTS)' >> Makefile
+echo $'\t $(CC) $(DEBUG) $(LINKING_OPTIONS) -o princess $(OBJECTS) $(LDFLAGS)' >> Makefile
+echo >> Makefile
+
+
+for i in *.c; do
+  echo $(ls "$i" | sed -e 's/\.c/.o/')': '"$i" '$(HEADERS)' >> Makefile
+  echo $'\t $(CC) $(DEBUG) -c' "$i" '$(CFLAGS)' >> Makefile
+  echo >> Makefile
+done;
+
+
+echo 'clean:' >> Makefile
+echo $'\t rm -f $(OBJECTS)' >> Makefile
+echo >> Makefile
+
+
+echo 'win:' >> Makefile
+echo $'\t $(WIN_CC) $(DEBUG) *.c -o $(WIN_OUTPUT) -lalleg' >> Makefile
+echo >> Makefile
+

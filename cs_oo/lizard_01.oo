@@ -1,0 +1,33 @@
+GND_WALKER
+
+//initial_health
+  20
+
+//initial_h_vel
+  200
+//initial_v_vel
+  0
+
+//can_not_fall_off_edge__0_or_1
+  1
+
+//walk_anim
+===========
+  2
+    cs_images/oo_lizard_01a.bmp  8 5  30 30
+    cs_images/oo_lizard_01b.bmp  8 5  30 30
+    9 1
+
+//fall_anim
+===========
+  2
+    cs_images/oo_lizard_01a.bmp  8 5  30 30
+    cs_images/oo_lizard_01b.bmp  8 5  30 30
+    9 1
+
+//die_anim
+==========
+  2
+    cs_images/oo_lizard_01a.bmp  8 5  30 30
+    cs_images/oo_lizard_01b.bmp  8 5  30 30
+    9 1

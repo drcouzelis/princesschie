@@ -1,0 +1,36 @@
+GND_WALKER
+
+//initial_health
+  30
+
+//initial_h_vel
+  60
+//initial_v_vel
+  0
+
+//can_not_fall_off_edge__0_or_1
+  1
+
+//walk_anim
+===========
+  3
+    cs_images/oo_evil_01c.bmp  25 20  20 20
+    cs_images/oo_evil_01b.bmp  25 20  20 20
+    cs_images/oo_evil_01a.bmp  25 20  20 20
+    9 1
+
+//fall_anim
+===========
+  3
+    cs_images/oo_evil_01c.bmp  25 20  20 20
+    cs_images/oo_evil_01b.bmp  25 20  20 20
+    cs_images/oo_evil_01a.bmp  25 20  20 20
+    9 1
+
+//die_anim
+==========
+  3
+    cs_images/oo_evil_01c.bmp  25 20  20 20
+    cs_images/oo_evil_01b.bmp  25 20  20 20
+    cs_images/oo_evil_01a.bmp  25 20  20 20
+    9 1
